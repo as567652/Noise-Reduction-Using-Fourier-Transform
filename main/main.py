@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import math
 
 # getting original image and showing it
-img = cv.imread('main/Reference_Image/original_noisy_image.tif', 0)
+img = cv.imread('Reference_Image/original_noisy_image.tif', 0)
 
 plt.figure()
 plt.title('Original Image')
@@ -71,5 +71,4 @@ plt.title('Modified Image')
 plt.imshow(img_back, cmap = 'gray')
 plt.xticks([])
 plt.yticks([])
-plt.savefig('img_back.png')
 plt.show()
